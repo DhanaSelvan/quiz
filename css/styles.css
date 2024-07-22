@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#home{
+    margin: 24px;
+    padding: 24px;
+    background-color: pink;
+    border-radius: 8px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+h3{
+    margin: 24px 0px;
+    font-size: 24px;
+}
+
+.choice {
+    display: flex;
+    gap: 24px;
+    margin-top: 4px;
+    align-items: center;
+    background-color: white;
+    border: 0px;
+    padding: 0px 54px 0px 0px;
+    max-width: 500px;
+    margin: 10px;
+    min-width: 350px;
+}
+
+.choice .option {
+    background-color: red;
+    color: aliceblue;
+    padding: 16px 24px;
+}
